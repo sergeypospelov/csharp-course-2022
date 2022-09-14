@@ -19,5 +19,5 @@
 
 ![task-2.png](imgs/task-2.png)
 
-
 ## Задание 3
+
