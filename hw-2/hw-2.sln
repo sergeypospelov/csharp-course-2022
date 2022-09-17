@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rain", "Rain\Rain.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rolls", "Rolls\Rolls.csproj", "{3C7794E9-BB50-4009-B5BF-C6362AD906B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValueTypeInheritance", "ValueTypeInheritance\ValueTypeInheritance.csproj", "{A9F77A2D-1DC1-4373-9AB6-CC6716E8657A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{3C7794E9-BB50-4009-B5BF-C6362AD906B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7794E9-BB50-4009-B5BF-C6362AD906B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7794E9-BB50-4009-B5BF-C6362AD906B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F77A2D-1DC1-4373-9AB6-CC6716E8657A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F77A2D-1DC1-4373-9AB6-CC6716E8657A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F77A2D-1DC1-4373-9AB6-CC6716E8657A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F77A2D-1DC1-4373-9AB6-CC6716E8657A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
