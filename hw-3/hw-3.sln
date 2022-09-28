@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists", "Lists\Lists.csproj", "{09B46D2F-E14E-42B6-B3F1-2960513144FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palindromes", "Palindromes\Palindromes.csproj", "{7207797E-009E-4D18-98CF-7C472A4CFEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction\Fraction.csproj", "{DB44CD58-E320-4FFB-A929-A6EB1099E207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09B46D2F-E14E-42B6-B3F1-2960513144FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B46D2F-E14E-42B6-B3F1-2960513144FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B46D2F-E14E-42B6-B3F1-2960513144FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B46D2F-E14E-42B6-B3F1-2960513144FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7207797E-009E-4D18-98CF-7C472A4CFEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7207797E-009E-4D18-98CF-7C472A4CFEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7207797E-009E-4D18-98CF-7C472A4CFEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7207797E-009E-4D18-98CF-7C472A4CFEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB44CD58-E320-4FFB-A929-A6EB1099E207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB44CD58-E320-4FFB-A929-A6EB1099E207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB44CD58-E320-4FFB-A929-A6EB1099E207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB44CD58-E320-4FFB-A929-A6EB1099E207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
