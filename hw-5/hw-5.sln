@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "divisors", "divisors\divisors.csproj", "{23F6D21E-81F1-433E-B596-A1343D8CFF80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sunloungers", "sunloungers\sunloungers.csproj", "{15B70C41-B4A2-422E-9D39-0EDC78A082A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventbus", "eventbus\eventbus.csproj", "{7CFC33F3-F22E-4852-907E-33E9EA36EC91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pseudostack", "pseudostack\pseudostack.csproj", "{FB5E7C74-6325-4E8E-B4C4-FF7D8317C20D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23F6D21E-81F1-433E-B596-A1343D8CFF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F6D21E-81F1-433E-B596-A1343D8CFF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F6D21E-81F1-433E-B596-A1343D8CFF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F6D21E-81F1-433E-B596-A1343D8CFF80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B70C41-B4A2-422E-9D39-0EDC78A082A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B70C41-B4A2-422E-9D39-0EDC78A082A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B70C41-B4A2-422E-9D39-0EDC78A082A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B70C41-B4A2-422E-9D39-0EDC78A082A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CFC33F3-F22E-4852-907E-33E9EA36EC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CFC33F3-F22E-4852-907E-33E9EA36EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CFC33F3-F22E-4852-907E-33E9EA36EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CFC33F3-F22E-4852-907E-33E9EA36EC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5E7C74-6325-4E8E-B4C4-FF7D8317C20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5E7C74-6325-4E8E-B4C4-FF7D8317C20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5E7C74-6325-4E8E-B4C4-FF7D8317C20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5E7C74-6325-4E8E-B4C4-FF7D8317C20D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
