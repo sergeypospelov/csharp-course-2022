@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{14F22569-B181-4160-8C1D-53A661A928E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F22569-B181-4160-8C1D-53A661A928E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F22569-B181-4160-8C1D-53A661A928E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F22569-B181-4160-8C1D-53A661A928E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F22569-B181-4160-8C1D-53A661A928E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

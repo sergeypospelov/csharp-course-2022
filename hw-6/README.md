@@ -83,11 +83,27 @@ Size: 4
 3 3 1 4
 ```
 
-## Задание 4
-
-Пример работы:
 
 ## Задание 5
 
-Пример работы:
+Тестовый код:
+```csharp
+var matrix = new Matrix<int>();
 
+matrix[1, 2, 3] = 5;
+matrix[1, 2, 4] = 10;
+matrix[1, 2, 3] = -5;
+
+Console.Out.WriteLine(matrix[1, 2, 3]);
+
+int sum = matrix.Sum();
+Console.Out.WriteLine(sum);
+
+```
+
+Результат:
+
+```
+-5
+5
+```
