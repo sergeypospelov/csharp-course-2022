@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lake", "Lake\Lake.csproj", "{566C1B35-8390-472B-972A-19BB27D22F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sort", "Sort\Sort.csproj", "{410B2750-831E-431A-B2B4-F2C880CB2F30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566C1B35-8390-472B-972A-19BB27D22F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566C1B35-8390-472B-972A-19BB27D22F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566C1B35-8390-472B-972A-19BB27D22F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566C1B35-8390-472B-972A-19BB27D22F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410B2750-831E-431A-B2B4-F2C880CB2F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410B2750-831E-431A-B2B4-F2C880CB2F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410B2750-831E-431A-B2B4-F2C880CB2F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410B2750-831E-431A-B2B4-F2C880CB2F30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BEAA50-6553-4BEF-A5D2-B64D361887D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
