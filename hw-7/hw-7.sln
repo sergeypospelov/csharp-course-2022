@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sum-3", "sum-3\sum-3.csproj", "{7D89A1B7-CAB2-4209-9EA3-015012812BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "min-max", "min-max\min-max.csproj", "{FC6468C4-420C-4E12-9FDF-02105A62F312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "linq", "linq\linq.csproj", "{5D7C9319-2335-453C-8F2E-23D35E60159B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D89A1B7-CAB2-4209-9EA3-015012812BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D89A1B7-CAB2-4209-9EA3-015012812BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D89A1B7-CAB2-4209-9EA3-015012812BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D89A1B7-CAB2-4209-9EA3-015012812BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6468C4-420C-4E12-9FDF-02105A62F312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6468C4-420C-4E12-9FDF-02105A62F312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6468C4-420C-4E12-9FDF-02105A62F312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6468C4-420C-4E12-9FDF-02105A62F312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7C9319-2335-453C-8F2E-23D35E60159B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7C9319-2335-453C-8F2E-23D35E60159B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7C9319-2335-453C-8F2E-23D35E60159B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7C9319-2335-453C-8F2E-23D35E60159B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
