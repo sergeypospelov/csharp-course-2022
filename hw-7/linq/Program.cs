@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Text;
 
 namespace linq
 {
@@ -25,14 +22,42 @@ namespace linq
         public static IEnumerable<IEnumerable<string>> Task3(string sentence, IEnumerable<char> punctuationMarks)
         {
             var result = sentence
-                .Split(' ')
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(s => s.Where(c => !punctuationMarks.Contains(c)))
                 .Select(s => string.Concat(s))
                 .GroupBy(s => s.Length)
                 .Where(group => group.Key > 0)
                 .Select(grouping => grouping.ToList())
-                .OrderBy(gr => -gr.Count());
+                .OrderBy(gr => -gr.Count);
             return result;
+        }
+
+        public static IEnumerable<String> Task4(string text, Dictionary<string, string> dict, int words)
+        {
+            return text
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(word => dict[word.ToLower()].ToUpper())
+                .Chunk(words)
+                .Select(line => string.Join(" ", line));
+        }
+
+        public static IEnumerable<String> Task5(string text, int symbols)
+        {
+            return text
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Aggregate(new List<string>(), (prv, word) =>
+                {
+                    if (prv.Count > 0 && prv.Last().Length + word.Length + 1 <= symbols)
+                    {
+                        prv[^1] = prv.Last() + " " + word;
+                    }
+                    else
+                    {
+                        prv.Add(word);
+                    }
+
+                    return prv;
+                });
         }
 
         public static void Main(string[] args)
@@ -69,6 +94,39 @@ namespace linq
                 var groupAsList = group.ToList();
                 Console.Out.WriteLine("Length: " + groupAsList.First().Length + " Size: " + groupAsList.Count());
                 Console.Out.WriteLine(string.Join("\n", groupAsList));
+            }
+
+            var example4 = "This dog eats too much vegetables after lunch";
+            var dictionary = new Dictionary<String, String>();
+            dictionary.Add("this", "эта");
+            dictionary.Add("dog", "собака");
+            dictionary.Add("eats", "ест");
+            dictionary.Add("too", "слишком");
+            dictionary.Add("much", "много");
+            dictionary.Add("vegetables", "овощей");
+            dictionary.Add("after", "после");
+            dictionary.Add("lunch", "обеда");
+            var res4 = Task4(example4, dictionary, 3);
+            foreach (var line in res4)
+            {
+                Console.Out.WriteLine(line);
+            }
+
+            var examples5 = new[]
+            {
+                new Tuple<string, int>("она продает морские раковины у моря", 16),
+                new Tuple<string, int>("мышь прыгнула через сыр", 8),
+                new Tuple<string, int>("волшебная пыль покрыла воздух", 15),
+                new Tuple<string, int>("a b  c d e", 2)
+            };
+            foreach (var (str, cnt) in examples5)
+            {
+                var res = Task5(str, cnt);
+                Console.Out.WriteLine(str + ":");
+                foreach (var el in res)
+                {
+                    Console.Out.WriteLine(string.Join(" ", el));
+                }
             }
         }
     }
