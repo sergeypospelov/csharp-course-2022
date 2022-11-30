@@ -65,9 +65,28 @@ Joe has these allergies: eggs, pollen.
 Rob has these allergies: peanuts, strawberries, chocolate.
 ```
 
-## Задание 3
+## Задание 4
 
 ### Пример работы:
 
 ```
+Houses: 1 4 8 10 20
+K: 3
+Ans: 5
+Positions: 1 8 20
+
+Houses: 2 3 5 12 18
+K: 2
+Ans: 9
+Positions: 3 12
+
+Houses: 7 4 6 1
+K: 1
+Ans: 8
+Positions: 4
+
+Houses: 3 6 14 10
+K: 4
+Ans: 0
+Positions: 3 6 10 14
 ```
