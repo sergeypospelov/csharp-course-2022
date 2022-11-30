@@ -53,6 +53,16 @@ TotalWeight: 1240
 ### Пример работы:
 
 ```
+Mary
+Mary has no allergies.
+Joe
+Joe has these allergies: eggs, pollen.
+Rob
+Rob has these allergies: peanuts, strawberries, chocolate, cats.
+Is Rob allergic to chocolate: True
+Mary has these allergies: eggs.
+Joe has these allergies: eggs, pollen.
+Rob has these allergies: peanuts, strawberries, chocolate.
 ```
 
 ## Задание 3
