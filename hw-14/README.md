@@ -40,7 +40,30 @@ third
 Пример работы:
 
 ```
-
+SleepSort1:
+a
+bb
+aaa
+ede
+bcd
+ccccc
+SleepSort2:
+a
+bb
+bcd
+aaa
+ede
+ccccc
+SleepSort1:
+a
+bb
+bb
+ccc
+SleepSort2:
+a
+bb
+bb
+ccc
 ```
 
 ## Задание 4
