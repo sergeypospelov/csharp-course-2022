@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "race", "race\race.csproj", "{478A9D48-03DC-406C-9E19-E1B6CCB13DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "print", "print\print.csproj", "{C86B6B67-EDE0-4E5A-948E-E4A8EC7B222C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478A9D48-03DC-406C-9E19-E1B6CCB13DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478A9D48-03DC-406C-9E19-E1B6CCB13DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478A9D48-03DC-406C-9E19-E1B6CCB13DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478A9D48-03DC-406C-9E19-E1B6CCB13DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C86B6B67-EDE0-4E5A-948E-E4A8EC7B222C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C86B6B67-EDE0-4E5A-948E-E4A8EC7B222C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C86B6B67-EDE0-4E5A-948E-E4A8EC7B222C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C86B6B67-EDE0-4E5A-948E-E4A8EC7B222C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
