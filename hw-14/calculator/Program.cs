@@ -4,7 +4,7 @@ using System.Collections.Immutable;
 
 double Process(string path, int threadsCount)
 {
-    var files = Directory.GetFiles(path).Where(file => file.EndsWith("out.dat")).ToList();
+    var files = Directory.GetFiles(path).Where(file => !file.EndsWith("out.dat")).ToList();
     var filesCount = files.Count;
     var chunkSize = (filesCount + threadsCount - 1) / threadsCount;
     var chunks = files.Chunk(chunkSize);
