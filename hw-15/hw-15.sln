@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bear-bees", "bear-bees\bear-bees.csproj", "{AF6A9D53-9298-4B5A-8B92-26172B9B7F83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wolf-rams", "wolf-rams\wolf-rams.csproj", "{E5F89275-D827-4FE2-952A-0D99EFF8E56B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "barber", "barber\barber.csproj", "{150C104F-230C-450F-B7CA-D570B0DA0213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "merge", "merge\merge.csproj", "{BF857644-F49B-46F1-ABB5-29EE36F60D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF6A9D53-9298-4B5A-8B92-26172B9B7F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6A9D53-9298-4B5A-8B92-26172B9B7F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6A9D53-9298-4B5A-8B92-26172B9B7F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6A9D53-9298-4B5A-8B92-26172B9B7F83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5F89275-D827-4FE2-952A-0D99EFF8E56B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5F89275-D827-4FE2-952A-0D99EFF8E56B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5F89275-D827-4FE2-952A-0D99EFF8E56B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5F89275-D827-4FE2-952A-0D99EFF8E56B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150C104F-230C-450F-B7CA-D570B0DA0213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150C104F-230C-450F-B7CA-D570B0DA0213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150C104F-230C-450F-B7CA-D570B0DA0213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150C104F-230C-450F-B7CA-D570B0DA0213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF857644-F49B-46F1-ABB5-29EE36F60D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF857644-F49B-46F1-ABB5-29EE36F60D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF857644-F49B-46F1-ABB5-29EE36F60D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF857644-F49B-46F1-ABB5-29EE36F60D02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
